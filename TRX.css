@@ -1,0 +1,88 @@
+.u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 788px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 157px;
+  height: 157px;
+  background-image: url("images/TRX.jpg");
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin: 68px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  margin: 21px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 13px auto 0;
+}
+
+.u-section-1 .u-image-2 {
+  width: 541px;
+  height: 13px;
+  animation-duration: 1000ms;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-custom-html-1 {
+  min-height: 26px;
+  height: auto;
+  animation-duration: 1000ms;
+  width: 569px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-custom-html-2 {
+  min-height: 347px;
+  height: auto;
+  width: 598px;
+  margin: 29px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-custom-html-1 {
+    width: 570px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-2 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 783px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 340px;
+    height: 8px;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    width: 340px;
+  }
+}

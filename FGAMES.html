@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>FGAMES</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="FGAMES.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 3.17.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Channel",
+		"logo": "images/XITTER__LOGO__SLIM.png"
+}</script>
+    <meta property="og:title" content="iNINJAFPS">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#478ac9">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-grey-90 u-header u-header" id="sec-8dfd"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <a href="" class="u-image u-logo u-image-1" data-image-width="1000" data-image-height="1000">
+          <img src="images/XITTER__LOGO__SLIM.png" class="u-logo-image u-logo-image-1" data-image-width="128.125">
+        </a>
+      </div></header>
+    <section class="u-clearfix u-grey-90 u-section-1" id="sec-7221">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-image u-image-circle u-preserve-proportions u-image-1" alt="" data-image-width="512" data-image-height="512" data-animation-name="flipIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="X"></div>
+        <p class="u-text u-text-default u-text-1">FGAMES</p>
+        <p class="u-text u-text-default u-text-2">INSCRITOS :</p>
+        <img class="u-image u-image-default u-image-2" src="images/_CONTER_PINK.png" alt="" data-image-width="541" data-image-height="13" data-animation-name="flipIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="X">
+        <div class="u-clearfix u-custom-html u-custom-html-1" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title></title>
+          <div style="text-align: center;" id="subCount"></div>
+          <script> // Get Subscribers
+    const youtubeKey = 'AIzaSyDQOQKHuoR1LVEtYKXx4hq_fRFeeKwD6Fk';
+    const youtubeUser = 'UCnPatE_28ESe66hN2TtWXwg';
+    const subCount = document.getElementById('subCount');
+    const delay = 1000; // 10 min
+    let getSubscribers = () => {
+        fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${youtubeUser}&key=${youtubeKey}`)
+        .then(response => {
+            return response.json()
+        })
+        .then(data => {
+            console.log(data);
+            subCount.innerHTML = data["items"][0].statistics.subscriberCount;
+        })
+    }
+    setInterval(() => {
+        getSubscribers();
+    }, delay); </script>
+        </div>
+        <div class="u-clearfix u-custom-html u-custom-html-2">
+          <iframe width="600" height="340" src="https://www.youtube.com/embed/+lastest?list=PLUuQT7veTmouTMJ9v5fjEsxT5LbODjzmw" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-c9b4"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">Copyright&nbsp;©️ Xitter Comunity</p>
+      </div></footer>
+  </body>
+</html>
